@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width:37.5rem;
+    height:12.5rem;
+    margin:10px;
+    border-radius:5px;
+    box-shadow: 0 0 10px ;
+}
+.first{
+    height:3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div{
+    font-size: 1.6rem;
+}
+input[type=color]
+{
+    border:none;
+    outline: none;
+    width:40px;
+}
+input[type=number]
+{
+    border:1.5px solid black;
+    outline: none;
+    width:2.5rem;
+}
+
+textarea{
+    width:100%;
+    min-height: 12.5rem;
+    height:100%;
+    padding:5px;
+    resize: vertical;
+    border-radius:5px;
+}
+
+i:hover{
+    cursor:pointer;
+    background-color: lightgray;
+}
+.first > div:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+@media(max-width:650px)
+{
+    .container{
+        background-color: white;
+        width:30rem;
+        margin:10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px ;
+    }
+}
+@media(max-width:600px)
+{
+    .container{
+        background-color: white;
+        width:25rem;
+        margin:10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px ;
+    }
+    div{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media(max-width:550px)
+{
+    .container{
+        background-color: white;
+        width:20rem;
+        margin:10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px ;
+    }
+    div{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media(max-width:450px)
+{
+    .container{
+        background-color: white;
+        width:20rem;
+        margin:10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px ;
+    }
+    div{
+        font-size: 1.01rem;
+    }
+
+}
+
+@media(max-width:360px)
+{
+    .container{
+        background-color: white;
+        width:18rem;
+        margin:10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px ;
+    }
+    div{
+        font-size: 1rem;
+    }
+
+}
+
